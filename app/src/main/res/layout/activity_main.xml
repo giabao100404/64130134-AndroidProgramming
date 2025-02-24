@@ -10,7 +10,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Xin Chào Androids"
+<<<<<<< HEAD
+        android:text="Xin Chào Android"
+=======
+        android:text="Xin Chào Android"
+>>>>>>> b273c76756f613bcf427a8df024ba811016402d2
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
