@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="50dp"
+        android:background="#FF0000">
+        <TextView
+            android:layout_marginRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Số thứ 1"
+            android:textSize="18dp"
+            android:textColor="#128EF0"/>
+        <EditText
+            android:id="@+id/edtSO1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mời nhập 1 số ở đây"
+            /></LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="50dp"
+            android:background="#FF0000">
+        <TextView
+            android:paddingRight="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Số thứ 2"
+                android:textSize="18dp"
+                android:textColor="#128EF0"/>
+        <EditText
+            android:id="@+id/edtSO2"
+                android:paddingLeft="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mời nhập 1 số ở đây"
+                />
+
+</LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="50dp"
+        android:layout_margin="30dp"
+        android:layout_gravity="center|top"
+        android:background="#FF0000">
+        <Button
+            android:id="@+id/edtbtnCong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"/>
+        <Button
+            android:id="@+id/edtbtnTru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"/>
+        <Button
+            android:id="@+id/edtNhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"/>
+        <Button
+            android:id="@+id/edtChia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="50dp"
+        android:background="#FF0000">
+        <TextView
+            android:paddingRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Kết quả"
+            android:textSize="18dp"
+            android:textColor="#128EF0"/>
+        <EditText
+            android:id="@+id/edtKQ"
+            android:paddingLeft="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nơi hiện kết quả"
+            android:enabled="false"
+            />
+
+    </LinearLayout>
