@@ -8,11 +8,10 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:layout_margin="15dp"
-        android:background="#00AFFF"
         android:padding="5dp">
 
         <TextView
@@ -20,14 +19,18 @@
             android:layout_height="wrap_content"
             android:text="Số thứ nhất"
             android:textColor="#F20000"
-            android:background="#5AD706"
             android:textSize="18dp" />
-
-        <EditText
-            android:id="@+id/edtSo1"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Mời nhập con số ở đây" />
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nhập điểm s">
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
     </LinearLayout>
 
     <LinearLayout
