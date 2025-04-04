@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 //B1. Tạo một Intent 2 tham số: 1) màn hình hiển thị tại this 2) màn hình hiểu thị tại class
                 Intent intentMH2 = new Intent(MainActivity.this, MH2Activity.class);
                 //B2. Gửi
-                startActivities(intentMH2);
+                startActivity(intentMH2);
 
             }
         });
@@ -46,8 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 //B1. Tạo một Intent 2 tham số: 1) màn hình hiển thị tại this 2) màn hình hiểu thị tại class
                 Intent intentMH3 = new Intent(MainActivity.this, MH3Activity.class);
                 //B2. Gửi
-                startActivities(intentMH3);
-
+                startActivity(intentMH3);
             }
-    }
-}
+    });
+    }}
